@@ -1,0 +1,17 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "A hello world to graphql",
+  "author": {
+    "email": "lucas-m@outlook.com",
+    "name": "Lucas Miranda",
+    "url": "https://lucas-lm.github.io"
+  },
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "graphql": "^15.3.0"
+  }
+}
