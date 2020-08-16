@@ -58,18 +58,18 @@ GraphQL NÃO é:
 
 ## :books: Refereces
 
-https://graphql.org
-https://howtographql.com
-https://apollographql.com
+- https://graphql.org
+- https://howtographql.com
+- https://apollographql.com
 
 ### Videos
 
-https://www.youtube.com/watch?v=xbLpIhCsIdg
-https://www.youtube.com/watch?v=7RoHxSGVAdU&list=PLPXWI3llyMiK9uw7tfljM2hnQl2qu6CeT
-https://www.youtube.com/watch?v=krhfoMJ48EY
-https://www.youtube.com/watch?v=oD8GqurXZ-0
+- https://www.youtube.com/watch?v=xbLpIhCsIdg
+- https://www.youtube.com/watch?v=7RoHxSGVAdU&list=PLPXWI3llyMiK9uw7tfljM2hnQl2qu6CeT
+- https://www.youtube.com/watch?v=krhfoMJ48EY
+- https://www.youtube.com/watch?v=oD8GqurXZ-0
 
 ### GitHub stuff
 
-https://github.com/apollographql
-https://github.com/prisma-labs/graphql-yoga
+- https://github.com/apollographql
+- https://github.com/prisma-labs/graphql-yoga
