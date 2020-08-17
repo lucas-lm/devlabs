@@ -14,5 +14,5 @@ jobs:
             github.repos.createDispatchEvent({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              event_type: 'update labs',
+              event_type: 'update',
             });
