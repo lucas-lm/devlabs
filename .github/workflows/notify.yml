@@ -1,15 +1,16 @@
-name: Greeting
+name: Update labs
 
 on: push
 
 jobs:
-  comment:
+  notify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v2
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
+            console.log(context.repo.repo)
             github.repos.createDispatchEvent({
               owner: context.repo.owner,
               repo: context.repo.repo,
