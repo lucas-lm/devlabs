@@ -10,7 +10,7 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            console.log(context.repo.repo)
+            console.log('Isso não deve funcionar')
             github.repos.createDispatchEvent({
               owner: context.repo.owner,
               repo: context.repo.repo,
