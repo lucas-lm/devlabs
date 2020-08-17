@@ -1,8 +1,6 @@
 name: Greeting
 
-on:
-  issues:
-    types: [opened]
+on: push
 
 jobs:
   comment:
@@ -12,9 +10,8 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            github.issues.createComment({
-              issue_number: context.issue.number,
+            github.repos.createDispatchEvent({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '👋 Thanks for reporting!'
-            })
+              event_type: 'update labs',
+            });
